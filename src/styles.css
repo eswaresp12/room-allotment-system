@@ -1,0 +1,104 @@
+
+/*----------- home ------------*/
+.home-h2-main{
+    color: turquoise;
+    box-shadow: 2px 5px #4f6c75;
+}
+.home-h2{
+    color: rgb(64, 224, 85);
+    box-shadow: 2px 5px #64856a;
+}
+/* -------------------signin page css starts here------------------------------ */
+.signin{
+    background-image: url("./image/signin.jpg");
+    background-size: cover;
+}
+
+.signin-description,.signin-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.51));
+}
+.signin .text-muted{
+    color: orange !important;
+}
+.signin h1{
+    background: rgba(0, 0, 0, 0.7);
+    color: orange;
+}
+#signin-description-text{
+    color: rgb(164, 247, 247) !important;
+}
+/* ----------------------signup starts here-------------------- */
+#signup{
+    padding:1rem;
+    margin:1rem auto;
+
+}
+#signup #signup-form{
+     border: 3px solid rgb(25, 114, 231);
+     padding: 2rem;
+     box-shadow:5px 10px 8px 10px #888888;
+     border-radius:5%;
+     -webkit-border-radius:5%;
+     -moz-border-radius:5%;
+     -ms-border-radius:5%;
+     -o-border-radius:5%;
+}
+
+#signup #signup-form h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: teal;
+    border-bottom: 3px solid red;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+/*-------------------- card ---------------------------------------*/
+.card{
+    margin-top: 0.2rem;
+}
+.card-header-1{
+    background-color: rgb(59, 194, 194);
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#cart #cart-with-item{
+    font-weight: 600 ;
+    padding: 0.3rem auto;
+    margin-top: 2rem;
+    color: rgb(8, 77, 77);
+    text-align: center;
+}
+#cart-empty{
+    font-weight: 600 ;
+    padding: 2rem auto;
+    margin-top: 2rem;
+    color: rgb(8, 77, 77);
+    line-height: 30px;
+    text-align: center;
+}
+#cart-summery{
+    font-weight: 600 ;
+    padding: 2rem auto;
+    margin-top: 2rem;
+    box-shadow: 1px  5px rgb(139, 241, 182);
+    color: rgb(7, 122, 26);
+    border: rgb(126, 224, 228) 1px solid;
+    text-align: center;
+}
+#cart-summery-box{
+    box-shadow: rgb(198, 199, 199) 5px 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: gray 1px solid;
+}
+.cart-product-details{
+    box-shadow: rgb(198, 199, 199) 5px 10px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px rgb(204, 203, 203) solid;
+    margin-bottom: 1rem;
+}
