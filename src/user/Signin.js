@@ -3,6 +3,7 @@ import { Link} from "react-router-dom";
 import Layout from "../core/Layout";
 import avatar from './../image/login/avatar.png';
 import './../CSS/signin.css';
+import FooterPagePro from "../core/Footer";
 const Signin = () => {
     const [values, setValues] = useState({
         email: "",
@@ -12,7 +13,7 @@ const Signin = () => {
         redirectToReferrer: false
     });
 
-    const { email, password, loading, error, redirectToReferrer } = values;
+    const { email, password } = values;
 
     const handleChange = name => event => {
         setValues({ ...values, error: false, [name]: event.target.value });
@@ -70,7 +71,9 @@ available or allocated floor with their respective year(E1 upto E4).students can
             className="container-fluid"
         >
             {signUpForm()}
-            
+
+        <br/>
+        <FooterPagePro />    
         </Layout>
     );
 };

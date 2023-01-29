@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Layout from './Layout';
 import Checkout from './Checkout';
-
+import FooterPagePro from './Footer';
 const Cart = () => {
     const [items, setItems] = useState([]);
     const [run, setRun] = useState(false);
@@ -32,6 +32,7 @@ const Cart = () => {
                     </div>
                 </div>
             </div>
+        <FooterPagePro />  
         </Layout>
     );
 };

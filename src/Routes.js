@@ -5,7 +5,8 @@ import Signin from './user/Signin';
 import Home from './core/Home';
 import Cart from './core/Cart';
 import TotalRoom from './user/TotalRoom';
-// import Team from './core/Team';
+import Contact from './core/contact';
+
 const Routes = () => {
     return (
         <BrowserRouter>
@@ -15,6 +16,9 @@ const Routes = () => {
                 <Route path="/signup" exact component={Signup} />
                 <Route path="/totalroom" exact component={TotalRoom} />         
                 <Route path="/cart" exact component={Cart} />
+                <Route path="/contact" exact component={Contact} />
+
+
             </Switch>
         </BrowserRouter>
     );

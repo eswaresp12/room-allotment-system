@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Layout from '../core/Layout';
 // import { signup } from '../auth';
 import './../CSS/signup.css';
+import FooterPagePro from '../core/Footer';
 const Signup = () => {
     const [values, setValues] = useState({
         name: '',
@@ -90,6 +91,8 @@ available or allocated floor with their respective year(E1 upto E4).students can
         <Layout
         >
             {signUpForm()}
+            <br />
+         <FooterPagePro />  
         </Layout>
     );
 };
