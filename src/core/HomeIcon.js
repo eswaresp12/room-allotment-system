@@ -57,7 +57,7 @@ export default function HomeIcon() {
                 <div className="col-sm-12 col-md-4 mb-2">
                     <div className="card-body text-center homeicon-shadow rounded bg-white">
                     <i class="fa fa-building fa-5x" aria-hidden="true"></i>
-                        <h4 className="h2  m-2">civil</h4>
+                        <h4 className="h2  m-2">CIVIL</h4>
                         <Link to="/totalroom" >  <p>Choose your room</p></Link>
                     </div>
                 </div>
