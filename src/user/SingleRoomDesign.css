@@ -1,15 +1,126 @@
-.bg-container{
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    margin:5px;
-    height:75vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.bg-container {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.buttons-design{
-    margin:15px;
-    
+.bgg-container {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  margin: 5px;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-design {
+  margin: 15px;
+
+  background-color: #36a9ae;
+  background-image: linear-gradient(#37adb2, #329ca0);
+  border: 1px solid #2a8387;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: -apple-system, '.SFNSDisplay-Regular', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 100%;
+  outline: 0;
+  padding: 11px 15px 12px;
+  text-align: center;
+  transition: box-shadow 0.05s ease-in-out, opacity 0.05s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-24 {
+  margin-top: 20px;
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, 'proxima nova', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+
+#slidingPage {
+  right: -100%;
+  background-color: #fff;
+  transition: right 0.3s ease-in-out;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.input-name {
+  margin-left: 28px;
+  margin-top: 5px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.input-mobile {
+  margin-top: 5px;
+}
+.input-class {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.edit {
+  margin-left: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#visibilty {
+  display: none;
 }
