@@ -7,10 +7,8 @@ import '../core/Home'
 import FooterPagePro from '../core/Footer'
 import { useHistory } from 'react-router-dom'
 
-import Home from '../core/Home'
 let regUsers = localStorage.getItem('user')
 let objdata = JSON.parse(regUsers)
-let res = false
 const Signin = () => {
   const history = useHistory()
 

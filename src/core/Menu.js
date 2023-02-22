@@ -1,6 +1,5 @@
 /* eslint-disable no-unused-vars */
 import React, { Fragment } from 'react'
-import { useState } from 'react'
 import { Link, withRouter } from 'react-router-dom'
 
 const Menu = ({ history }) => {

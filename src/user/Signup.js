@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Layout from '../core/Layout'
-// import { useNavigate } from 'react-router-dom'
 import { ToastContainer, toast } from 'react-toastify'
 import './../CSS/signup.css'
 import FooterPagePro from '../core/Footer'
