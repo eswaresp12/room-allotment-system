@@ -9,6 +9,7 @@ import { useHistory } from 'react-router-dom'
 
 let regUsers = localStorage.getItem('user')
 let objdata = JSON.parse(regUsers)
+console.log(objdata)
 const Signin = () => {
   const history = useHistory()
 
